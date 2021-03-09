@@ -1,0 +1,98 @@
+---
+title: "ggtree_basicExample"
+author: "Roxana Zamudio"
+output:
+  html_document: default
+  pdf_document: default
+date: "09 March 2021"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+## Installing packages, for installing remove the #
+```{r library}
+# if (!requireNamespace("BiocManager", quietly = TRUE))
+#     install.packages("BiocManager")
+#  
+# BiocManager::install("ggtree")
+
+#install.packages("ape")
+#install.packages("ggplot2")
+#install.packages("phylotools")
+#install.packages("dplyr")
+#install.packages("tidytree")
+#install.packages("phytools")
+
+```
+## Uploading packages
+```{r library}
+library(ape)
+library(ggplot2)
+library(ggtree)
+library(phylotools)
+library(dplyr)
+library(tidytree)
+library(phytools)
+```
+
+## Reading the tree and quick plot of the tree (this is a example for Acinetobacter baumannii [obtained from public database], in this case the tree was build using the free alignment approach )
+
+```{r ggtree}
+tree <- read.tree("/Users/zamudio/Downloads/ggtree_example/wholegenome_acitenobacter.nwk")
+tree2<-midpoint.root(tree) #rotting the tree by the midpoint 
+length(tree2$tip.label)
+ggtree(tree2, ladderize=FALSE)
+```
+## Renaming the tip label using the file where there is a old (1st column) and new name (2nd column)
+
+```{r ggtree}
+data<-read.table("/Users/zamudio/Downloads/ggtree_example/rename_tip.label.txt", header = TRUE, sep = "\t")
+head(data)
+tree3 <- sub.taxa.label(tree2, data) # renaming the tip label
+tree3$tip.label
+```
+
+## Importing the metadata
+
+```{r ggtree}
+meta_data = read.csv("/Users/zamudio/Downloads/ggtree_example/meta_data.csv", sep=",", row.names=1) 
+head(meta_data)
+meta_group = read.table("/Users/zamudio/Downloads/ggtree_example/group.txt", sep = "\t",header = TRUE, stringsAsFactors = FALSE)
+head(meta_group)
+```
+
+## Plotting the tree and tip label with different colors
+
+```{r ggtree}
+p<-ggtree(tree3, ladderize=FALSE) + ylim(0,110) + xlim(0,0.01) + geom_treescale(x=0.01, y=1, offset=1)
+p
+
+#1st option
+p2<-p %<+% meta_group + scale_fill_manual(values = c("CC2"="red","other"="grey")) +
+  geom_tiplab(aes(fill = factor(group)), size=2,
+              color = "black", # color for label font
+              geom = "label",  # label, not text
+              label.padding = unit(0.05, "lines"), # amount of padding around the labels
+              label.size = 0,alpha=.5, align = TRUE)# size of label border
+p2
+
+#2nd option
+p3<-p %<+% meta_group + geom_tiplab(aes(color = factor(group),fontface="bold"),align=TRUE, size=2.8) + scale_color_manual(values = c("CC2"="black","other"="purple"))                
+p3
+```
+
+
+## Plotting the tree with the metadata
+
+```{r ggtree}
+hm <- gheatmap(p3,meta_data, offset = 0.0011, width=0.6, font.size=3.5, colnames_position= "top", colnames_angle = 90, colnames_offset_y = 0, hjust = 0) + scale_fill_manual(values=c("presence" = "black", "absence" = "gray"))      
+hm
+
+png(filename = "/Users/zamudio/Downloads/ggtree_example/WGtree_acitenobacter.png", height = 14, width = 16, units = "in", res = 300)
+plot(hm)
+dev.off()
+```
+
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
