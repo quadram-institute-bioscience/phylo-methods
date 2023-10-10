@@ -70,6 +70,9 @@ Here is a list of software and libraries that might be of interest. We will not 
   and [RevBayes](https://revbayes.github.io/) are the main Bayesian phylogenetic inference software.
 * [rapidNJ](https://github.com/somme89/rapidNJ) and [decenttree](https://github.com/iqtree/decenttree) for
   distance-based inference
+* [phylonium](https://github.com/EvolBioInf/phylonium) for an almost alignment-free tree inference (distances based on
+  approximate local alignments), and [mashtree](https://github.com/lskatz/mashtree) for an alignment-free dendrogram
+  (based on Mash distances)
 
 #### Divergence times, Ancestral inference
 
