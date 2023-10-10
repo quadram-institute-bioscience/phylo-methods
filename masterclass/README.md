@@ -1,9 +1,11 @@
 # Phylogenetics at the QIB &mdash; training material
 
-date       |  location | time 
+
+date       |         location                    | time 
     ----   |           ----                      | ----
 2023.11.13 | **UG55A** (QIB, upper ground floor) | **1400 to 1600**
 2023.11.20 | **UG44A** (QIB, upper ground floor) | **1400 to 1600**
+
 
 This repository contains data sets and links you may find useful when following the lectures. 
 Some links will only work if you have access to the NBI/QIB network.
