@@ -1,9 +1,14 @@
 # Phylogenetics at the QIB &mdash; training material
-2023.11.13 : **UG55A** (QIB, upper ground floor) **1400 to 1600**
-2023.11.20 : **UG44A** (QIB, upper ground floor) **1400 to 1600**
+
+date       |  location | time 
+    ----   |           ----                      | ----
+2023.11.13 | **UG55A** (QIB, upper ground floor) | **1400 to 1600**
+2023.11.20 | **UG44A** (QIB, upper ground floor) | **1400 to 1600**
 
 This repository contains data sets and links you may find useful when following the lectures. 
-Some links will only work if you have access to the NBI/QIB network. 
+Some links will only work if you have access to the NBI/QIB network.
+
+This repository is still under construction, come back later for more material. 
 
 ## Read before the lectures
 
@@ -41,6 +46,8 @@ tar Jxvf file.tar.xz # same as above ("txz" = "tar.xz")
 
 Here is a list of software and libraries that might be of interest. We will not discuss all of them during the lectures.
 
+#### python / R
+
 * [cogent3](https://github.com/cogent3/cogent3) Comparative Genomics Toolkit - a python library for analysis of genomic sequence data
 * [ggtree](https://bioconductor.org/packages/release/bioc/html/ggtree.html) an R library for tree visualisaion (see
   [book above](https://yulab-smu.top/treedata-book/) for other related libraries)
@@ -49,23 +56,31 @@ Here is a list of software and libraries that might be of interest. We will not 
 * [dendropy](https://dendropy.org/), [ETE](https://github.com/etetoolkit/ete), and
   [treeswift](https://github.com/niemasd/TreeSwift) are the main python modules for tree manipulation and visualisation
 
+#### Phylogenetic inference 
+
 * [IQ-TREE](http://www.iqtree.org/) and [RAxML-NG](https://github.com/amkozlov/raxml-ng) are the most popular tools for
   phylogenetic inference by maximum likelihood (ML).
 * [phyml](https://github.com/stephaneguindon/phyml), [PAML](http://abacus.gene.ucl.ac.uk/software/paml.html), and
-  [phylip](https://phylipweb.github.io/phylip/) are also quite general ML tree inference software. 
+  [phylip](https://phylipweb.github.io/phylip/) are also quite general tree inference software (focus on ML).
 * [UShER](https://usher-wiki.readthedocs.io/en/latest/index.html) is a parsimony-based software capable of handling
   large trees, for closely-related sequences (as in SARS-CoV-2)
 * [EPA-ng](https://github.com/Pbdas/epa-ng), [RAxML-EPA](http://sco.h-its.org/exelixis/web/software/epa/index.html), and 
   [pplacer](http://matsen.fhcrc.org/pplacer/) for phylogenetic placement.
+* [BEAST](https://beast.community/)/[BEAST2](https://www.beast2.org/), [MrBayes](https://nbisweden.github.io/MrBayes/), [PhyloBayes](https://pbil.univ-lyon1.fr/software/phylobayes/),
+  and [RevBayes](https://revbayes.github.io/) are the main Bayesian phylogenetic inference software.
+* [rapidNJ](https://github.com/somme89/rapidNJ) and [decenttree](https://github.com/iqtree/decenttree) for
+  distance-based inference
+
+#### Divergence times, Ancestral inference
 
 * [pastML](https://github.com/evolbioinfo/pastml) Ancestral state reconstruction, with a python module
 * [treetime](https://github.com/neherlab/treetime) for divergence times estimation and ancestral state reconstruction
 * [chronumental](https://github.com/theosanderson/chronumental) for very large scale divergence times estimation
 
+### Other tools
+
 * [goalign](https://github.com/evolbioinfo/goalign) and [gotree](https://github.com/evolbioinfo/gotree) for tree and sequence manipulation on the command line. 
   See also [phyx](https://github.com/FePhyFoFum/phyx) and [seqmagick](https://github.com/fhcrc/seqmagick).  
-
-more specific tools:
 * [SNPPar](https://github.com/d-j-e/SNPPar) to find Homoplasic SNPs (using `treetime` or `pastML`)
 
 
