@@ -8,10 +8,17 @@
 This repository contains data sets and links you may find useful when following the lectures. 
 Some links will only work if you have access to the NBI/QIB network.
 
+I these lectures I will briefly review phylogenetic concepts, and discuss issues particularly important to those working
+with microbial genomics.
+Due to time constraints and the vast availability of further courses and online tutorials, I won't go into details of
+any method or tool. 
+
+I provide below a list of further materials and references for you to follow during or after the lectures. 
+
 > [!IMPORTANT]  
 > This repository is still under construction, come back later for more material. 
 
-## Read before the lectures
+## Material to check before the lectures
 
 The lectures assume some familiarity with the command line and with resources at the QIB. 
 [Check the list of resources available at the QIB (internal link)](https://quadram-institute.atlassian.net/servicedesk/customer/portal/3/article/10059964?src=1311561195)
@@ -24,12 +31,18 @@ the lectures:
 * [Tutorials on phylogenetic and phylogenomic inference maintained by Michael Matschiner](https://github.com/mmatschiner/tutorials)
 * [**Phylogenetics in the Genomic Era**, edited by Celine Scornavacca, Frédéric Delsuc, and Nicolas Galtier](https://hal.science/hal-02535070v3)
 * [**Data Integration, Manipulation and Visualization of Phylogenetic Trees**, by Guangchuang Yu](https://yulab-smu.top/treedata-book/), based on the `ggtree` suite of R packages.
+
+This is not obligatory reading for the lectures, by the way, but it may help fill remaining knowledge gaps. 
+
+## Further references
+
 * [**Phylogenetic Comparative Methods**, by Luke Harmon)](https://lukejharmon.github.io/pcm/)
 
-And if you are looking for paper textbooks, these are the ones I tend to follow more closely:
+If you are looking for paper textbooks to keep in the future, these are my favourites:
 
 * [**Molecular Evolution: A Statistical Approach**, by Ziheng Yang](http://abacus.gene.ucl.ac.uk/MESA/)
 * [**Inferring Phylogenies**, by Joseph Felsenstein](https://global.oup.com/academic/product/inferring-phylogenies-9780878931774)
+
 
 ## The data sets
 
