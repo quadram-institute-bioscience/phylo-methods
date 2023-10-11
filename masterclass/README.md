@@ -100,7 +100,7 @@ Here is a list of software and libraries that might be of interest. We will not 
 ### Other tools
 
 * [goalign](https://github.com/evolbioinfo/goalign) and [gotree](https://github.com/evolbioinfo/gotree) for tree and sequence manipulation on the command line. 
-  See also [phyx](https://github.com/FePhyFoFum/phyx) and [seqmagick](https://github.com/fhcrc/seqmagick).  
+  See also [phyx](https://github.com/FePhyFoFum/phyx), [seqkit](https://bioinf.shenwei.me/seqkit/) and [seqmagick](https://github.com/fhcrc/seqmagick).  
 * [SNPPar](https://github.com/d-j-e/SNPPar) to find Homoplasic SNPs (using `treetime` or `pastML`)
 
 
