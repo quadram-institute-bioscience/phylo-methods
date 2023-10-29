@@ -24,7 +24,7 @@ The lectures assume some familiarity with the command line and with resources at
 [Check the list of resources available at the QIB (internal link)](https://quadram-institute.atlassian.net/servicedesk/customer/portal/3/article/10059964?src=1311561195)
 if you need further training. The binfie team also provides [a list of external training resources](https://quadram-institute.atlassian.net/servicedesk/customer/portal/3/article/6455523).
 
-In particular, although we'll try to accomodate all levels of experience, this is not an introductory course on phylogenetics. 
+In particular, although we'll try to accomodate all levels of expertise, this is not an introductory course on phylogenetics. 
 The following is a list of open resouces I recommend for a overview of modern phylogenetics, in order of relevance for
 the lectures:
 
