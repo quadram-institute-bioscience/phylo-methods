@@ -1,0 +1,3 @@
+(E_putida:0.07,E_orientalis:0.09,((((A_stutzeri:0.15,A_vinelandii:0.11):0.03,P_aeruginosa:0.1):0.04,((O_alkaliphila:0.18,P_C_sp:0.16):0.09,B_luteola:0.17):0.05):0.06,(E_mendocina:0.08,P_E_sp:0.12):0.02):0.13);
+(E_putida:0.07,E_orientalis:0.09,((((O_alkaliphila:0.18,P_C_sp:0.16):0.03,P_aeruginosa:0.1):0.04,((A_stutzeri:0.15,A_vinelandii:0.11):0.09,B_luteola:0.17):0.05):0.06,(E_mendocina:0.08,P_E_sp:0.12):0.02):0.13);
+(E_putida:0.36,E_orientalis:0.34,((((O_alkaliphila:0.14,P_C_sp:0.12):0.24,P_aeruginosa:0.18):0.26,((A_stutzeri:0.22,A_vinelandii:0.2):0.16,B_luteola:0.1):0.18):0.3,(E_mendocina:0.06,P_E_sp:0.04):0.08):0.32);
