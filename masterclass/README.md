@@ -34,6 +34,10 @@ the lectures:
 
 This is not obligatory reading for the lectures, by the way, but it may help fill remaining knowledge gaps. 
 
+> [!NOTE]
+> Please bring a device with internet connection (laptop or mobile), since we'll use https://slido.com/ for interactive
+> quizzes. A laptop for running the analyses is not required during the lecture.
+
 ## Further references
 
 * [**Phylogenetic Comparative Methods**, by Luke Harmon)](https://lukejharmon.github.io/pcm/)
@@ -47,11 +51,11 @@ If you are looking for paper textbooks to keep in the future, these are my favou
 ## The data sets
 
 > [!IMPORTANT]  
-> data sets still under construction, not available yet 
+> :warning: data sets still under construction, not available yet 
 
-To reduce their sizes, the data sets are compressed with [`XZ`](https://tukaani.org/xz/), and furthermore archived with
+To reduce their sizes, some data sets are compressed with [`XZ`](https://tukaani.org/xz/), and furthermore archived with
 [`tar`](https://en.wikipedia.org/wiki/Tar_(computing)) when necessary. Thus if you want to decompress or extract the
-contents of a file, the commands on linux are something like (depending on the file suffix):
+contents of such file, the commands on linux are something like (depending on the file suffix):
 
 ```console
 xz file.xz           # compressed with XZ
