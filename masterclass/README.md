@@ -51,7 +51,7 @@ If you are looking for paper textbooks to keep in the future, these are my favou
 ## The data sets
 
 > [!IMPORTANT]  
-> :warning: data sets still under construction, not available yet 
+> :warning: not all data sets available yet, please check again later.
 
 To reduce their sizes, some data sets are compressed with [`XZ`](https://tukaani.org/xz/), and furthermore archived with
 [`tar`](https://en.wikipedia.org/wiki/Tar_(computing)) when necessary. Thus if you want to decompress or extract the
