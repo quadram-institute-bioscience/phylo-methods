@@ -36,17 +36,8 @@ This is not obligatory reading for the lectures, by the way, but it may help fil
 
 > [!NOTE]
 > Please bring a device with internet connection (laptop or mobile), since we'll use https://slido.com/ for interactive
-> quizzes. A laptop for running the analyses is not required during the lecture.
-
-## Further references
-
-* [**Phylogenetic Comparative Methods**, by Luke Harmon)](https://lukejharmon.github.io/pcm/)
-
-If you are looking for paper textbooks to keep in the future, these are my favourites:
-
-* [**Molecular Evolution: A Statistical Approach**, by Ziheng Yang](http://abacus.gene.ucl.ac.uk/MESA/)
-* [**Inferring Phylogenies**, by Joseph Felsenstein](https://global.oup.com/academic/product/inferring-phylogenies-9780878931774)
-
+> quizzes. A laptop for running the analyses is not required during the lecture, but you are free to bring a fully
+> charged one. 
 
 ## The data sets
 
@@ -63,6 +54,16 @@ tar Jxvf file.tar.xz # same as above ("txz" = "tar.xz")
 Currently there are two exercises, described in [Dataset_1](Dataset_1.snps_only)  and [Dataset_2](Dataset_2.concatenate_alignments).
 You can try to do them before the lecture, after the lecture, and if there is time you can start working on them during the
 first lecture. We will discuss them in the second lecture.
+
+
+## Further references
+
+* [**Phylogenetic Comparative Methods**, by Luke Harmon)](https://lukejharmon.github.io/pcm/)
+
+If you are looking for paper textbooks to keep in the future, these are my favourites:
+
+* [**Molecular Evolution: A Statistical Approach**, by Ziheng Yang](http://abacus.gene.ucl.ac.uk/MESA/)
+* [**Inferring Phylogenies**, by Joseph Felsenstein](https://global.oup.com/academic/product/inferring-phylogenies-9780878931774)
 
 
 ## Phylogenetic tools
