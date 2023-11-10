@@ -50,8 +50,6 @@ If you are looking for paper textbooks to keep in the future, these are my favou
 
 ## The data sets
 
-> [!IMPORTANT]  
-> :warning: not all data sets available yet, please check again later.
 
 To reduce their sizes, some data sets are compressed with [`XZ`](https://tukaani.org/xz/), and furthermore archived with
 [`tar`](https://en.wikipedia.org/wiki/Tar_(computing)) when necessary. Thus if you want to decompress or extract the
@@ -62,6 +60,9 @@ xz file.xz           # compressed with XZ
 tar Jxvf file.txz    # archived and compressed 
 tar Jxvf file.tar.xz # same as above ("txz" = "tar.xz")
 ```
+
+Currently there are two exercises, described in (./Dataset_1.snps_only)  and (./Dataset_2.concatenate_alignments).
+
 
 ## Phylogenetic tools
 
