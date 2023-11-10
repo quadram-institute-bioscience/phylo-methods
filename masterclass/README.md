@@ -50,7 +50,6 @@ If you are looking for paper textbooks to keep in the future, these are my favou
 
 ## The data sets
 
-
 To reduce their sizes, some data sets are compressed with [`XZ`](https://tukaani.org/xz/), and furthermore archived with
 [`tar`](https://en.wikipedia.org/wiki/Tar_(computing)) when necessary. Thus if you want to decompress or extract the
 contents of such file, the commands on linux are something like (depending on the file suffix):
@@ -61,7 +60,9 @@ tar Jxvf file.txz    # archived and compressed
 tar Jxvf file.tar.xz # same as above ("txz" = "tar.xz")
 ```
 
-Currently there are two exercises, described in (./Dataset_1.snps_only)  and (./Dataset_2.concatenate_alignments).
+Currently there are two exercises, described in [Dataset_1](Dataset_1.snps_only)  and [Dataset_2](Dataset_2.concatenate_alignments).
+You can try to do them before the lecture, after the lecture, and if there is time you can start working on them during the
+first lecture. We will discuss them in the second lecture.
 
 
 ## Phylogenetic tools
