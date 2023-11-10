@@ -23,6 +23,6 @@ seqkit concat bacteria.*fasta > concat_wrong.fasta
 mafft --auto concat_wrong.fasta > concat_wrong.aln
 ```
 
-Files `fasta_100_sequences.txz` and `fasta_40_sequences.txz` contain the unaligned sequences (from 100 and from 40 isolates, respectively).
+Files (fasta_100_sequences.txz) and (fasta_40_sequences.txz) contain the unaligned sequences (from 100 and from 40 isolates, respectively).
 The file `names_full_taxonomy.tsv` contains the GTDB classification for these sequences, in case you want to change the
 tip names or colours. 
