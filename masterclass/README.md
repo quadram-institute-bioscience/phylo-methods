@@ -8,7 +8,7 @@
 This repository contains data sets and links you may find useful when following the lectures. 
 Some links will only work if you have access to the NBI/QIB network.
 
-I these lectures I will briefly review phylogenetic concepts, and discuss issues particularly important to those working
+In these lectures I will briefly review phylogenetic concepts, and discuss issues particularly important to those working
 with microbial genomics.
 Due to time constraints and the vast availability of further courses and online tutorials, I won't go into details of
 any method or tool. 
