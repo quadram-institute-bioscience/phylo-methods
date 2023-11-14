@@ -34,6 +34,11 @@ the lectures:
 
 This is not obligatory reading for the lectures, by the way, but it may help fill remaining knowledge gaps. 
 
+A few other resources:
+
+* [IQ-TREE 2 Workshop Tutorial](http://www.iqtree.org/workshop/sydney2022)
+* [How to read a tree](https://artic.network/how-to-read-a-tree.html)
+
 > [!NOTE]
 > Please bring a device with internet connection (laptop or mobile), since we'll use https://slido.com/ for interactive
 > quizzes. A laptop for running the analyses is not required during the lecture, but you are free to bring a fully
@@ -54,6 +59,10 @@ tar Jxvf file.tar.xz # same as above ("txz" = "tar.xz")
 Currently there are two exercises, described in [Dataset_1](Dataset_1.snps_only)  and [Dataset_2](Dataset_2.concatenate_alignments).
 You can try to do them before the lecture, after the lecture, and if there is time you can start working on them during the
 first lecture. We will discuss them in the second lecture.
+
+## The lectures
+
+The slides for the first lecture are available as [231113.PhyloQIB_01_toshare.pdf](231113.PhyloQIB_01_toshare.pdf).
 
 
 ## Further references
