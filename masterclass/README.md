@@ -95,8 +95,8 @@ Here is a list of software and libraries that might be of interest. We will not 
   phylogenetic inference by maximum likelihood (ML).
 * [phyml](https://github.com/stephaneguindon/phyml), [PAML](http://abacus.gene.ucl.ac.uk/software/paml.html), and
   [phylip](https://phylipweb.github.io/phylip/) are also quite general tree inference software (focus on ML).
-* [UShER](https://usher-wiki.readthedocs.io/en/latest/index.html) is a parsimony-based software capable of handling
-  large trees, for closely-related sequences (as in SARS-CoV-2)
+* [UShER](https://usher-wiki.readthedocs.io/en/latest/index.html) is a parsimony-based software capable of handling large trees, for closely-related sequences (as in SARS-CoV-2)
+* [MPBoot](http://www.iqtree.org/mpboot/) is a maximum-parsimony software with "a fast approximation for maximum parsimony bootstrap"
 * [EPA-ng](https://github.com/Pbdas/epa-ng), [RAxML-EPA](http://sco.h-its.org/exelixis/web/software/epa/index.html), and 
   [pplacer](http://matsen.fhcrc.org/pplacer/) for phylogenetic placement.
 * [BEAST](https://beast.community/)/[BEAST2](https://www.beast2.org/), [MrBayes](https://nbisweden.github.io/MrBayes/), [PhyloBayes](https://pbil.univ-lyon1.fr/software/phylobayes/),
