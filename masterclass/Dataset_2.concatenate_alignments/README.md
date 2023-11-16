@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> :warning: We won't have time to discuss the results during the (second) lecture
+
 # Multi-gene phylogeny by concatenating alignments
 
 This exercise will help us to compare the results of estimating phylogenies using different genes.

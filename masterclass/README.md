@@ -15,9 +15,6 @@ any method or tool.
 
 I provide below a list of further materials and references for you to follow during or after the lectures. 
 
-> [!IMPORTANT]  
-> This repository is still under construction, come back later for more material. 
-
 ## Material to check before the lectures
 
 The lectures assume some familiarity with the command line and with resources at the QIB. 
