@@ -54,8 +54,9 @@ tar Jxvf file.tar.xz # same as above ("txz" = "tar.xz")
 ```
 
 Currently there are two exercises, described in [Dataset_1](Dataset_1.snps_only)  and [Dataset_2](Dataset_2.concatenate_alignments).
-You can try to do them before the lecture, after the lecture, and if there is time you can start working on them during the
-first lecture. We will discuss them in the second lecture.
+You can try to do them before the lecture or after the lecture.
+During the second lecture we may have time to discuss the analysis of data set 1 only (effect of using SNP-sites on tree
+estimation). 
 
 ## The lectures
 
@@ -115,5 +116,8 @@ Here is a list of software and libraries that might be of interest. We will not 
 * [goalign](https://github.com/evolbioinfo/goalign) and [gotree](https://github.com/evolbioinfo/gotree) for tree and sequence manipulation on the command line. 
   See also [phyx](https://github.com/FePhyFoFum/phyx), [seqkit](https://bioinf.shenwei.me/seqkit/) and [seqmagick](https://github.com/fhcrc/seqmagick).  
 * [SNPPar](https://github.com/d-j-e/SNPPar) to find Homoplasic SNPs (using `treetime` or `pastML`)
+* [guidance](https://github.com/anzaika/guidance) for alignment while estimating unreliable regions.
+* [trimal](http://trimal.cgenomics.org/) for removal of poorly aligned regions or sequences.
+
 
 
