@@ -1,5 +1,5 @@
 > [!IMPORTANT]
-> :warning: We won't have time to discuss the results during the (second) lecture
+> :warning: We won't have time to discuss the results of this analysis during the (second) lecture
 
 # Multi-gene phylogeny by concatenating alignments
 
