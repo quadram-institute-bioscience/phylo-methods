@@ -118,6 +118,8 @@ Here is a list of software and libraries that might be of interest. We will not 
 * [SNPPar](https://github.com/d-j-e/SNPPar) to find Homoplasic SNPs (using `treetime` or `pastML`)
 * [guidance](https://github.com/anzaika/guidance) for alignment while estimating unreliable regions.
 * [trimal](http://trimal.cgenomics.org/) for removal of poorly aligned regions or sequences.
+* [phylocloud](https://phylocloud.cgmlab.org/) for the annotation and visualisation of large trees, using the [ETE](https://github.com/etetoolkit/ete)'s toolkit visualisation system. 
+  See also [taxonium](https://taxonium.org/).
 
 
 
