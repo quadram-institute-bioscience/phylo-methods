@@ -60,7 +60,7 @@ estimation).
 
 ## The lectures
 
-The slides for the first lecture are available as [231113.PhyloQIB_01_toshare.pdf](231113.PhyloQIB_01_toshare.pdf).
+The slides are available as [231113.PhyloQIB_01_toshare.pdf](231113.PhyloQIB_01_toshare.pdf) and [231113.PhyloQIB_02_toshare.pdf](231113.PhyloQIB_02_toshare.pdf).
 
 
 ## Further references
@@ -83,9 +83,10 @@ Here is a list of software and libraries that might be of interest. We will not 
 * [ggtree](https://bioconductor.org/packages/release/bioc/html/ggtree.html) an R library for tree visualisaion (see
   [book above](https://yulab-smu.top/treedata-book/) for other related libraries)
 * [phangorn](https://github.com/KlausVigo/phangorn) for Phylogenetic analysis in R (expands the main phylogenetic library for R 
-  [ape](https://github.com/emmanuelparadis/ape)
+  [ape](https://github.com/emmanuelparadis/ape)). It includes phylogenetic reconstruction algorithms.
 * [dendropy](https://dendropy.org/), [ETE](https://github.com/etetoolkit/ete), and
-  [treeswift](https://github.com/niemasd/TreeSwift) are the main python modules for tree manipulation and visualisation
+  [treeswift](https://github.com/niemasd/TreeSwift) are the main python modules for tree manipulation and visualisation.
+  They are not designed for inference, however. 
 
 #### Phylogenetic inference 
 
@@ -120,6 +121,4 @@ Here is a list of software and libraries that might be of interest. We will not 
 * [trimal](http://trimal.cgenomics.org/) for removal of poorly aligned regions or sequences.
 * [phylocloud](https://phylocloud.cgmlab.org/) for the annotation and visualisation of large trees, using the [ETE](https://github.com/etetoolkit/ete)'s toolkit visualisation system. 
   See also [taxonium](https://taxonium.org/).
-
-
 
